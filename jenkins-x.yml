@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-on-prem
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-on-prem
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.35.203.97.189.nip.io
+  pipelines: {}
